@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Caldroid-master\\caldroid\\build\\intermediates\\res\\merged\\debug\\color\\cell_text_color.xml",
+        "source": "D:\\Caldroid-master\\caldroid\\src\\main\\res\\color\\cell_text_color.xml"
+    },
+    {
+        "merged": "D:\\Caldroid-master\\caldroid\\build\\intermediates\\res\\merged\\debug\\color\\cell_text_color_dark.xml",
+        "source": "D:\\Caldroid-master\\caldroid\\src\\main\\res\\color\\cell_text_color_dark.xml"
+    }
+]

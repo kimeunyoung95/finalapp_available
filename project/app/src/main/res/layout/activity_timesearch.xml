@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_information"
+    tools:context=".activity.TimeSearchActivity">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:visibility="invisible" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="312dp"
+                android:layout_gravity="top"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/time_2" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="315dp"
+                android:src="@drawable/time_1"
+                android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="530dp"
+                android:src="@drawable/time"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

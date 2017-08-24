@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+        android:text="도서관 구역 지도"
+        android:textSize="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/full_map"
+        android:layout_weight="0.49">
+
+    </ImageView>
+
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+<Button
+    android:id="@+id/book_location_search"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="end"
+    android:layout_width="87dp"
+    android:textSize="20dp"
+    android:layout_marginRight="30dp"
+    android:layout_height="70dp"
+    android:text="선택한 도서 위치 찾기"/>
+
+
+    <Button
+        android:id="@+id/book_location_a"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_width="87dp"
+        android:textSize="20dp"
+        android:layout_height="70dp"
+        android:text="가 구역"/>
+
+    <Button
+        android:id="@+id/book_location_b"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_width="87dp"
+        android:textSize="20dp"
+        android:layout_height="70dp"
+        android:text="나 구역"/>
+
+    <Button
+        android:id="@+id/book_location_c"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_width="87dp"
+        android:textSize="20dp"
+        android:layout_height="70dp"
+        android:text="다 구역"/>
+
+
+</LinearLayout>
+</LinearLayout>

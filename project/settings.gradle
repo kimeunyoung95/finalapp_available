@@ -1,0 +1,1 @@
+include ':app', ':android-query-full.0.26.8', ':gradle-wrapper', ':jericho-android.3.3'

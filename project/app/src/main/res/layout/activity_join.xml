@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp"
+    tools:context=".activity.JoinActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|top"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.36"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--입력한 두 비밀번호가 일치하지 않으면 에러 메시지 보여주기-->
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="학번"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColorHint="#393939"
+                android:background="@drawable/stroke_join"/>
+
+            <TextView
+                android:id="@+id/member_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:layout_gravity="right"/>
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/input_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColorHint="#393939"
+            android:background="@drawable/stroke_join"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginBottom="30dp">
+
+            <EditText
+                android:id="@+id/input_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:hint="이름"
+                android:layout_weight="0.51"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColorHint="#393939"
+                android:background="@drawable/stroke_join"/>
+
+            <EditText
+                android:id="@+id/input_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="0.44"
+                android:hint="학년"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColorHint="#393939"
+                android:background="@drawable/stroke_join"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/input_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:hint="전공"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColorHint="#393939"
+            android:background="@drawable/stroke_join"/>
+
+        <EditText
+            android:id="@+id/input_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="닉네임"
+            android:padding="14dp"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColorHint="#393939"
+            android:background="@drawable/stroke_join"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <Button
+        android:id="@+id/commitcommitButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:text="가입"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/cancleButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="취소"
+        android:layout_gravity="right"/>
+    </LinearLayout>
+</LinearLayout>
+
